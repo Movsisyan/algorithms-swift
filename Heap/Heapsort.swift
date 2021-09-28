@@ -35,7 +35,7 @@ let sortedNums = [-4, 9, -3, 89, 0, 0, 2].heapSort()
 let sortedWords = ["dune", "is", "an", "awesome", "movie"].heapSort()
 
 // MARK: - Time & Space complexity
-// The space complexity is n as all the elements must be placed into the heap before popping them out.
+// The space complexity is O(n) as all the elements must be placed into the heap before popping them out.
 // The time complexity is O(n * log(n)) because we have n elements and each pop method takes logarithmic time.
 // So the speed is the same as in merge sort and quicksort.
 
